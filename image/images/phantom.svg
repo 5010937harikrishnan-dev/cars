@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#18243a"/>
+  </linearGradient>
+  <linearGradient id="paint" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#e63946"/><stop offset="1" stop-color="#ffffff" stop-opacity=".35"/>
+  </linearGradient>
+</defs>
+<rect width="900" height="500" rx="35" fill="url(#bg)"/>
+<text x="55" y="70" fill="#94a3b8" font-family="Arial" font-size="24" letter-spacing="5">PHANTOM GT</text>
+<ellipse cx="450" cy="390" rx="330" ry="28" fill="#000" opacity=".5"/>
+<!-- car body -->
+<path d="M165 350 L205 285 Q225 255 275 245 L360 180 Q385 160 430 160 L555 160 Q600 165 625 195 L690 255 Q735 270 755 315 L760 350 Z"
+      fill="url(#paint)" stroke="#e2e8f0" stroke-width="5"/>
+<!-- windows -->
+<path d="M330 240 L380 190 Q395 180 425 180 L475 180 L475 240 Z" fill="#111827" opacity=".95"/>
+<path d="M490 180 L550 185 Q575 188 595 210 L625 240 L490 240 Z" fill="#111827" opacity=".95"/>
+<!-- lights -->
+<path d="M205 285 L255 270 L245 292 L210 300 Z" fill="#f8fafc"/>
+<path d="M690 270 L735 290 L742 306 L700 296 Z" fill="#fb7185"/>
+<!-- wheels -->
+<circle cx="275" cy="350" r="62" fill="#05070b" stroke="#64748b" stroke-width="8"/>
+<circle cx="275" cy="350" r="28" fill="#cbd5e1"/>
+<circle cx="650" cy="350" r="62" fill="#05070b" stroke="#64748b" stroke-width="8"/>
+<circle cx="650" cy="350" r="28" fill="#cbd5e1"/>
+<!-- road line -->
+<path d="M90 420 H810" stroke="#475569" stroke-width="5" stroke-dasharray="28 22"/>
+</svg>
